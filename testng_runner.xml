@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebOrders Automation Regression Tests" verbose="2">
+    <test name="WebOrders Automation Regression Tests">
+        <classes>
+            <class name="com.cybertek.tests.crmPage.CRMmoduleTest"></class>
+        </classes>
+    </test>
+</suite>
