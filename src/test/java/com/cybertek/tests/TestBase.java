@@ -24,7 +24,6 @@ public class TestBase {
     protected Actions actions;
     protected WebDriverWait wait;
 
-
     protected ExtentReports report;
     protected ExtentHtmlReporter htmlReporter;
     protected ExtentTest extentLogger;
@@ -52,7 +51,7 @@ public class TestBase {
 
 
     @BeforeMethod
-    public void setUpMethod() throws InterruptedException {
+    public void setUpMethod()  {
         // initilializes the webdriver object in test base class using the Driver utility
         driver = Driver.get();
         driver.manage().window().maximize();
@@ -72,7 +71,7 @@ public class TestBase {
     }
 
     @AfterMethod
-    public void tearDownMethod(ITestResult result) throws InterruptedException, IOException {
+    public void tearDownMethod(ITestResult result) throws IOException {
          //if the test failed
         if (result.getStatus() == ITestResult.FAILURE) {
             // record the failed test

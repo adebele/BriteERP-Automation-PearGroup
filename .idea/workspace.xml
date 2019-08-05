@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0411e9a7-bf87-4c95-85c9-4d19db3d5844" name="Default Changelist" comment="" />
+    <list default="true" id="0411e9a7-bf87-4c95-85c9-4d19db3d5844" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1OoDa1SlzoxSoTBHuhi3aYeIeqs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -57,8 +61,55 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.CRMmoduleTest">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="BriteERP-automation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="BriteERP-automation" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BriteERPCRM2.precondition2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteERP2019Automation" />
+      <module name="BriteERP-automation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.tests.crmPage.*" />
@@ -76,7 +127,7 @@
       </method>
     </configuration>
     <configuration name="CRMmoduleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteERP2019Automation" />
+      <module name="BriteERP-automation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.tests.crmPage.*" />
@@ -93,7 +144,7 @@
       </method>
     </configuration>
     <configuration name="CRMmoduleTest.createOpportunity" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteERP2019Automation" />
+      <module name="BriteERP-automation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.tests.crmPage.*" />
@@ -111,7 +162,7 @@
       </method>
     </configuration>
     <configuration name="CRMmoduleTest.viewList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteERP2019Automation" />
+      <module name="BriteERP-automation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.tests.crmPage.*" />
@@ -129,7 +180,7 @@
       </method>
     </configuration>
     <configuration name="LoginInTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteERP2019Automation" />
+      <module name="BriteERP-automation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.tests.loginTest.*" />
@@ -167,6 +218,17 @@
       <updated>1564635115271</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
