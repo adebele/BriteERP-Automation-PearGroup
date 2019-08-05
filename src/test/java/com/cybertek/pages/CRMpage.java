@@ -46,6 +46,9 @@ public class CRMpage extends NavigationBar {
     @FindBy(css = "button[class='btn btn-sm btn-primary']")
     public WebElement okDelBtn;
 
+    @FindBy(className = "o_list_view table table-condensed table-striped o_list_view_ungrouped")
+    public WebElement listTable;
+
     public void sendTxtPlannedRvn(String s) {
         plannedRev.clear();
         plannedRev.sendKeys(s);
@@ -57,7 +60,7 @@ public class CRMpage extends NavigationBar {
 
 
     public List<WebElement> tablehdrListView() {
-        listBtn.click();
+//        listBtn.click();
         List<WebElement> tableheader = Driver.get().findElements(By.xpath("//thead//th"));
         return tableheader;
     }
@@ -67,8 +70,15 @@ public class CRMpage extends NavigationBar {
         Driver.get().findElement(By.xpath(xpath)).click();
     }
 
+    public boolean checkOpportunity(String p){
+       // kanbanBtn.click();
+        List<WebElement> wE = Driver.get().findElements(By.xpath("//strong[@class=\"o_kanban_record_title\"]/span[contains(text(),'"+p+"')]"));
+        if(!wE.isEmpty()){
+            return true;
+        }
 
-
+        return false;
+    }
 
 
     public void createOpportunity(String name, String rev, int star){

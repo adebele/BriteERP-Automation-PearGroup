@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0411e9a7-bf87-4c95-85c9-4d19db3d5844" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CRMpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CRMpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/crmPage/CRMmoduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/crmPage/CRMmoduleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/createOpportunity20190804074418.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +39,7 @@
   <component name="ProjectId" id="1OoDa1SlzoxSoTBHuhi3aYeIeqs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -109,24 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BriteERPCRM2.precondition2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteERP-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.crmPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.crmPage" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.crmPage.BriteERPCRM2" />
-      <option name="METHOD_NAME" value="precondition2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CRMmoduleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP-automation" />
       <extension name="coverage">
@@ -155,6 +142,24 @@
       <option name="PACKAGE_NAME" value="com.cybertek.tests.crmPage" />
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.crmPage.CRMmoduleTest" />
       <option name="METHOD_NAME" value="createOpportunity" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRMmoduleTest.deleteOpportunity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteERP-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.crmPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.crmPage" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.crmPage.CRMmoduleTest" />
+      <option name="METHOD_NAME" value="deleteOpportunity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,9 +206,9 @@
       <list>
         <item itemvalue="TestNG.CRMmoduleTest" />
         <item itemvalue="TestNG.CRMmoduleTest.createOpportunity" />
+        <item itemvalue="TestNG.CRMmoduleTest.deleteOpportunity" />
         <item itemvalue="TestNG.CRMmoduleTest.viewList" />
         <item itemvalue="TestNG.LoginInTest" />
-        <item itemvalue="TestNG.BriteERPCRM2.precondition2" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565027362788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1565027935250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565027935250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +262,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -264,16 +278,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/crmPage/CRMmoduleTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
