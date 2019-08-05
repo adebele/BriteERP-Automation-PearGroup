@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.BriteERP</groupId>
-    <artifactId>briteERP2019Automation</artifactId>
+    <artifactId>BriteERP-automation</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
