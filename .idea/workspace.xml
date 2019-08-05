@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0411e9a7-bf87-4c95-85c9-4d19db3d5844" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CRMpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CRMpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/crmPage/CRMmoduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/crmPage/CRMmoduleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/createOpportunity20190804074418.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -205,8 +201,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CRMmoduleTest" />
-        <item itemvalue="TestNG.CRMmoduleTest.createOpportunity" />
         <item itemvalue="TestNG.CRMmoduleTest.deleteOpportunity" />
+        <item itemvalue="TestNG.CRMmoduleTest.createOpportunity" />
         <item itemvalue="TestNG.CRMmoduleTest.viewList" />
         <item itemvalue="TestNG.LoginInTest" />
       </list>
@@ -237,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565027935250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update with Assert code">
+      <created>1565045217921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565045217921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +280,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Update with Assert code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update with Assert code" />
   </component>
 </project>
